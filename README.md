@@ -10,15 +10,15 @@ Make sure you're on Go version 1.22+.
 
 Create a `.env` file in the root of the project with the following contents:
 
-```bash
+````bash
 PORT="8080"
-```
+```\
 
 Run the server:
 
 ```bash
 go build -o notely && ./notely
-```
+````
 
 _This starts the server in non-database mode._ It will serve a simple webpage at `http://localhost:8080`.
 
